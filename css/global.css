@@ -28,18 +28,23 @@ body > header {
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
 }
 
+
 header .logo-search form  {
     width: 50%;
+ 
+
 }
 
 header .user {
     float: right;
+
 }
 
 header .user a {
     font-size: 13px;
     color: #89949b;
     padding-top: 5px;
+
 }
 
 main h2 {
