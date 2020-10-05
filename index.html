@@ -2,6 +2,10 @@
 
 	<head>
 		<meta charset="UTF-8" />
+		<meta
+			  name="viewport"
+			  content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+			/>
 		<title>Rdio - Luke Chesser</title>
 
 		<!-- CSS only -->
@@ -28,7 +32,17 @@
 						<input type="submit" name="submit" value="Rechercher" class="submit">
 					</form>
 					<div class="user">
-					    <a href="#">Luke Chesser</a>
+						<div class="dropdown">
+							<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Luke Chesser 
+							  </button>
+							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">Edit my Profile</a>
+							    <a class="dropdown-item" href="#">Logout</a>
+							  </div>
+							
+						</div>
+					    
 					</div>
 				</div>
 		</header>
@@ -67,20 +81,22 @@
 									<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
 								</div>
 							</div>
-							<div class="stats-links">
-								<section class="stats">
-									<span>2 Playlists</span>
-									<span>4 Reviews</span>
-									<span>6 Followers</span>
-									<span>13 Following</span>
-								</section>
-								<div class="links">
-									<div>
-										<a href="#">Collection</a>
-										<a href="#">History</a>
+							<div class="stats-links inline">
+									<section class="stats">
+										<span>2 Playlists</span>
+										<span>4 Reviews</span>
+										<span>6 Followers</span>
+										<span>13 Following</span>
+									</section>
+									<div class="links" style="display: flex; align-content: flex-start;  ">
+										<div>
+											<a href="#">Collection</a>
+											<a href="#">History</a>
+										</div>
 									</div>
-								</div>
 							</div>
+
+								
 						</header>
 						<div class="row">
 							<h2 class="col-md-6">Top Album</h2>
