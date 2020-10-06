@@ -4,8 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta
 			  name="viewport"
-			  content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-			/>
+			  content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
 		<title>Rdio - Luke Chesser</title>
 
 		<!-- CSS only -->
@@ -22,18 +21,18 @@
 	<body>
 		
 		<header>
-				<div class="wrapper">
-					<div class="logo-search">
+				<div class="wrapper"  style="display: flex;">
+					<div class="logo-search" style="padding: 0 100px 0 200px;">
 						<img class="pull-left" src="img/logo.png" />
 					</div>
 
-					<form method="POST" action="index.html">
+					<form method="POST" action="index.html" class="d-none d-lg-block">
 						<input type="search" required class="search">
 						<input type="submit" name="submit" value="Rechercher" class="submit">
 					</form>
 					<div class="user">
 						<div class="dropdown">
-							<button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn dropdown-toggle" style="color: grey;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							    Luke Chesser 
 							  </button>
 							  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -78,17 +77,20 @@
 								</aside>
 								<div class="name">
 									<h1>Luke Chesser</h1>
-									<p>Montreal, Quebec, Canada <a href="https://www.facebook.com/" target="_blank"><img class="share" src="img/icon/fb.png" /></a><a href="https://twitter.com/" target="_blank"><img class="share" src="img/icon/twitter.png" /></a></p>
+									<p style="display: flex;">Montreal, Quebec, Canada 
+										<a href="https://www.facebook.com/" class="d-none d-lg-block" target="_blank"><img class="share" src="img/icon/fb.png" /></a>
+										<a href="https://twitter.com/" class="d-none d-lg-block" target="_blank"><img class="share" src="img/icon/twitter.png" /></a>
+									</p>
 								</div>
 							</div>
-							<div class="stats-links inline">
+							<div class="stats-links" style="display: flex;">
 									<section class="stats">
 										<span>2 Playlists</span>
 										<span>4 Reviews</span>
 										<span>6 Followers</span>
 										<span>13 Following</span>
 									</section>
-									<div class="links" style="display: flex; align-content: flex-start;  ">
+									<div class="links" style ="justify-content: flex-end;">
 										<div>
 											<a href="#">Collection</a>
 											<a href="#">History</a>
